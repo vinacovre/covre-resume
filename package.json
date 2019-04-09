@@ -1,0 +1,35 @@
+{
+  "name": "covre-resume",
+  "version": "1.0.0",
+  "description": "CLI Application for Vinicius Covre's Résumé",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b .",
+    "prestart": "npm run build",
+    "start": "node ./bin/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinacovre/covre-resume.git"
+  },
+  "keywords": [
+    "resume",
+    "résumé",
+    "cv",
+    "curriculum",
+    "vitae"
+  ],
+  "author": "Vinicius Covre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinacovre/covre-resume/issues"
+  },
+  "homepage": "https://github.com/vinacovre/covre-resume#readme",
+  "dependencies": {
+    "@types/inquirer": "^6.0.0",
+    "chalk": "^2.4.2",
+    "inquirer": "^6.2.2",
+    "typescript": "^3.4.2"
+  }
+}
