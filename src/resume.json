@@ -1,8 +1,89 @@
 {
-  "Education": [],
-  "Languages": [],
-  "Coursework": [],
-  "Skills": [],
-  "Experience": [],
-  "Research": []
+  "Education": [
+    {
+      "University": "Unicamp (University of Campinas)",
+      "Date": "\tFeb 2019 - Present",
+      "Degree": "Graduate Studies",
+      "Extra": "\tSpecial Student - Cryptography",
+      "Location": "Campinas, SP"
+    },
+    {
+      "University": "Unesp (State University of São Paulo)",
+      "Date": "\tMar 2013 - Jul 2018",
+      "Degree": "BSc., Computer Science",
+      "Extra": "\t1st student in class ranking",
+      "Location": "Rio Claro, SP"
+    },
+    {
+      "University": "Pace Uniersity",
+      "Date": "\tFall 2015 & Spring 2016",
+      "Degree": "BSc., Computer Science",
+      "Extra": "\tGPA: 4.0",
+      "Location": "New York, NY"
+    }
+  ],
+  "Languages": [
+    {
+      "Language": "English",
+      "Level": "\tFluent"
+    },
+    {
+      "Language": "Portugese",
+      "Level": "\tNative"
+    },
+    {
+      "Language": "Spanish",
+      "Level": "\tBasic"
+    }
+  ],
+  "Coursework": [
+    {
+      "Title": "\tVoice Print",
+      "Summary": "System of speech password recognition"
+    }
+  ],
+  "Skills": [
+    {
+      "Area": "\tProgramming",
+      "Items": "\tJavaScript | C | TypeScript | Matlab"
+    },
+    {
+      "Area": "\tFrameworks",
+      "Items": "\tNode.js | Express.js | Serverless"
+    },
+    {
+      "Area": "\tOther",
+      "Items": "\tMicroservices | FaaS/IaaS | Unix | Scrum | Git/GitHub"
+    }
+  ],
+  "Experience": [
+    {
+      "Company": "",
+      "Position": "",
+      "Date": "",
+      "Description": "",
+      "Extra": ""
+    },
+    {
+      "Company": "",
+      "Position": "",
+      "Date": "",
+      "Description": ""
+    }
+  ],
+  "Research": [
+    {
+      "Institution": "",
+      "Role": "",
+      "Date": "",
+      "Description": "",
+      "Extra": ""
+    },
+    {
+      "Institution": "",
+      "Role": "",
+      "Date": "",
+      "Description": ""
+    }
+  ]
 }
