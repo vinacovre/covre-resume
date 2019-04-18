@@ -1,15 +1,26 @@
 import * as chalk from 'chalk';
 import resume from './resume.json';
+import { Separator } from 'inquirer';
 
-export const response = chalk.default.bold.green;
+export const clearBlue = chalk.default.bold.rgb(165, 209, 243);
+export const blue = chalk.default.bold.rgb(97, 148, 188);
 
-export const resumePrompts = {
+export const welcomeMsg = `${new Separator()}  ${blue("Résumé | Vinicius Covre")}   ${new Separator()}`;
+
+export const mainMenu = {
   type: "list",
   name: "resumeOptions",
   message: "What do you want to know about me?",
   choices: [...Object.keys(resume), "Exit"]
 };
 
-// export interface IAnswer {
-//   resumeOptions: string,
-// }
+const separator = new Separator();
+export const separatorTop = "\n" + `${separator}`.repeat(4);
+export const separatorBottom = `${separator}`.repeat(4) + "\n";
+
+export const backOrExitMenu = {
+  type: "list",
+  name: "exitBack",
+  message: "Go back | Exit:",
+  choices: ["Back", "Exit"]
+};
