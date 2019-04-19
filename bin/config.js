@@ -15,10 +15,10 @@ exports.mainMenu = {
 };
 const separator = new inquirer_1.Separator();
 exports.separatorTop = "\n" + `${separator}`.repeat(4);
-exports.separatorBottom = `${separator}`.repeat(4) + "\n";
+exports.separatorBottom = `\n${separator}`;
 exports.backOrExitMenu = {
     type: "list",
-    name: "exitBack",
-    message: "Go back | Exit:",
+    name: "backOrExitMenu",
+    message: "Chose an option",
     choices: ["Back", "Exit"]
 };

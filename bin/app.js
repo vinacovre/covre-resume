@@ -12,7 +12,7 @@ class App {
         inquirer_1.prompt(config_1.mainMenu)
             .then((answer) => {
             const option = answer.resumeOptions;
-            if (option === "Exit")
+            if (this.shouldExit(option))
                 return;
             this.displayResumeChoice(option, resume_json_1.default);
             this.displayBackOrExitMenu();
@@ -21,22 +21,25 @@ class App {
     displayResumeChoice(option, resume) {
         console.log(config_1.separatorTop);
         resume[`${option}`].forEach(this.desplayInfo);
-        console.log(config_1.separatorBottom);
     }
     desplayInfo(info) {
         console.log("");
         for (let key in info) {
             console.log(config_1.clearBlue(` ${key}:\t${info[key]}`));
         }
-        console.log("");
+        console.log(`${config_1.separatorBottom}`);
     }
     displayBackOrExitMenu() {
+        console.log("");
         inquirer_1.prompt(config_1.backOrExitMenu)
-            .then((choice) => {
-            if (choice.exitBack !== "Back")
+            .then((answer) => {
+            if (this.shouldExit(answer.backOrExitMenu))
                 return;
             this.run();
         });
+    }
+    shouldExit(choice) {
+        return choice === "Exit";
     }
 }
 new App().run();
