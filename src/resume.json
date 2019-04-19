@@ -2,24 +2,24 @@
   "Education": [
     {
       "University": "Unicamp (University of Campinas)",
-      "Date": "\tFeb 2019 - Present",
+      "Date": "\tFeb 2019 – Present",
       "Degree": "Graduate Studies",
-      "Extra": "\tSpecial Student - Cryptography",
-      "Location": "Campinas, SP"
+      "Location": "Campinas, SP",
+      "Extra": "\tSpecial Student - Cryptography"
     },
     {
       "University": "Unesp (State University of São Paulo)",
-      "Date": "\tMar 2013 - Jul 2018",
+      "Date": "\tMar 2013 – Jul 2018",
       "Degree": "BSc., Computer Science",
-      "Extra": "\t1st student in class ranking",
-      "Location": "Rio Claro, SP"
+      "Location": "Rio Claro, SP",
+      "Extra": "\t1st student in class ranking"
     },
     {
       "University": "Pace Uniersity",
       "Date": "\tFall 2015 & Spring 2016",
       "Degree": "BSc., Computer Science",
-      "Extra": "\tGPA: 4.0",
-      "Location": "New York, NY"
+      "Location": "New York, NY",
+      "Extra": "\tGPA: 4.0"
     }
   ],
   "Languages": [
@@ -58,32 +58,34 @@
   ],
   "Experience": [
     {
-      "Company": "",
-      "Position": "",
-      "Date": "",
-      "Description": "",
-      "Extra": ""
+      "Company": "Daitan Group",
+      "Position": "Software Development Specialist",
+      "Date": "\tJul 2018 – Present",
+      "Description": "\n\t\t• Back-End Development\n\t\t\tFunctional Programming, Node.js / Express.js, & TypeScript\n\t\t• Cloud Computing (AWS as Cloud Provider)\n\t\t• Microservices\n\t\t\tREST APIs hosted on AWS EC2\n\t\t• CI & CD (AWS CodeBuild, AWS Code Pipeline)\n\t\t• Serverless Architecture / FaaS\n\t\t\tAWS Lambda, Serverless Framework, & AWS API Gateway\n\t\t• Experience with Scrum, Git / GitHub, Jira, & Confluence\n\t\t• Experience with PostgreSQL, DynamoDB, & MongoDB\n\t\t• Experience with AWS Elastic Beanstalk & AWS ECS\n\t\t• Experience with AWS SQS, AWS SNS, AWS CloudWatch, & AWS S3\n\t\t• Chatbot (for Slack)\n\t\t\tIntegration with Trello | Versioned in GitLab\n\t\t• Customer communication\n\t\t• Front-End Development\n\t\t\tAngular framework (beginner)",
+      "Extra": "\n\t\tCertificate of Recognition\n\t\t\"Due to his professionalism given to CVC (project) transition.\n\t\tCovre successfully faced the challenge to lead the transfer of\n\t\tinformation to India teams.\""
     },
     {
-      "Company": "",
-      "Position": "",
-      "Date": "",
-      "Description": ""
+      "Company": "Daitan Group",
+      "Position": "Software Engineer Intern",
+      "Date": "\tAug 2017 – Jun 2018",
+      "Description": "\n\t\t• Back-End Development\n\t\t\tNode.js / Express.js, & Ruby on Rails\n\t\t• Microservices\n\t\t\tREST APIs using SOLID design principles\n\t\t• Chatbot (for Slack)\n\t\t\tIntegration with Trello | Versioned in GitLab\n\t\t• Serverless Architecture / FaaS\n\t\t\tAWS Lambda, Serverless Framework, & AWS API Gateway\n\t\t• Experience with Scrum, Jira, & Git / GitHub\n\t\t• Experience with Functional Programming & PostgreSQL"
     }
   ],
   "Research": [
     {
-      "Institution": "",
-      "Role": "",
-      "Date": "",
-      "Description": "",
-      "Extra": ""
+      "Institution": "IIT – Illinois Institute of Technology",
+      "Role": "\tHead Undergraduate Researcher",
+      "Date": "\tSummer 2016",
+      "Location": "Chicago, IL",
+      "Description": "\n\t\tScholarship researcher under the theme\n\t\t”Quantitative Molecular Imaging in Cancer Diagnosis,\n\t\tDetection, and Treatment”\n\n\t\t• Molecular Imaging\n\t\t• Data Analysis & Algorithms\n\t\t• Digital Image Processing\n\t\t• Software package to assist surgeon in\n\t\t  Fluorescence-Guided Surgery (FGS)"
     },
     {
-      "Institution": "",
-      "Role": "",
-      "Date": "",
-      "Description": ""
+      "Institution": "FAPESP",
+      "Role": "\tSponsored Researcher",
+      "Date": "\tSet 2014 – May 2015",
+      "Location": "Rio Claro, SP",
+      "Description": "\n\t\tScholarship researcher under the theme ”Denoise CT images”\n\t\t• Data Analysis & Algorithms\n\t\t• Digital Image Processing & Pattern Recognition\n\t\t• 2 Paper Publications",
+      "Extra": "\n\t\tBest Paper Award\n\t\t”Double Noise Filtering in CT: Pre- and Post-Reconstruction”"
     }
   ]
 }
