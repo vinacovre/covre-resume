@@ -16,11 +16,11 @@ export const mainMenu = {
 
 const separator = new Separator();
 export const separatorTop = "\n" + `${separator}`.repeat(4);
-export const separatorBottom = `${separator}`.repeat(4) + "\n";
+export const separatorBottom = `\n${separator}`;
 
 export const backOrExitMenu = {
   type: "list",
-  name: "exitBack",
-  message: "Go back | Exit:",
+  name: "backOrExitMenu",
+  message: "Chose an option",
   choices: ["Back", "Exit"]
 };

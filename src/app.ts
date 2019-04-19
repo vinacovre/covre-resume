@@ -12,7 +12,7 @@ class App {
       .then((answer: any) => {
         const option = answer.resumeOptions;
 
-        if (option === "Exit")
+        if (this.shouldExit(option))
           return;
 
         this.displayResumeChoice(option, resume);
@@ -23,7 +23,6 @@ class App {
   private displayResumeChoice(option: string, resume: any): void {
     console.log(separatorTop);
     resume[`${option}`].forEach(this.desplayInfo);
-    console.log(separatorBottom);
   }
 
   private desplayInfo(info: any) {
@@ -31,16 +30,21 @@ class App {
     for (let key in info) {
       console.log(clearBlue(` ${key}:\t${info[key]}`));
     }
-    console.log("");
+    console.log(`${separatorBottom}`);
   }
 
   private displayBackOrExitMenu(): void {
+    console.log("");
     prompt(backOrExitMenu)
-      .then((choice: any) => {
-        if (choice.exitBack !== "Back")
+      .then((answer: any) => {
+        if (this.shouldExit(answer.backOrExitMenu))
           return;
         this.run();
       });
+  }
+
+  private shouldExit(choice: string): boolean {
+    return choice === "Exit";
   }
 }
 
