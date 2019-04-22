@@ -25,7 +25,7 @@ class App {
     resume[`${option}`].forEach(this.desplayInfo);
   }
 
-  private desplayInfo(info: any) {
+  private desplayInfo(info: any): void {
     console.log("");
     for (let key in info) {
       console.log(clearBlue(` ${key}:\t${info[key]}`));

@@ -6,8 +6,9 @@
     "outDir": "./bin",
     "baseUrl": "./src",
     "importHelpers": true,
+    "noImplicitAny": false,
     "lib": [
-      "es2018",
+      "es2018"
     ],
     "strict": true,
     "moduleResolution": "node",

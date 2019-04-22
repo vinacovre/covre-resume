@@ -8,6 +8,7 @@
     "no-arg": true,
     "no-bitwise": true,
     "no-conditional-assignment": true,
+    "semicolon": [true,"always"],
     "no-consecutive-blank-lines": false,
     "no-console": {
       "severity": "warning",
